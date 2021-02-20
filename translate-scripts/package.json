@@ -1,0 +1,15 @@
+{
+  "name": "translate-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd .. && husky install"
+  },
+  "devDependencies": {
+    "husky": "^5.0.9"
+  },
+  "dependencies": {
+    "gitlog": "^4.0.4"
+  }
+}

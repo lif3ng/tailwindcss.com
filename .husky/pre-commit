@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+node translate-scripts/get-origin-last-commit-hash.js
